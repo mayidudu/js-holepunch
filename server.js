@@ -19,7 +19,7 @@ handlers['connect'] = function (c, args) {
     waiting[args].conn.end()
     delete waiting[args]
   } else {
-    c.write('ERR::not there')
+    c.write('err::not there')
   }
 }
 
