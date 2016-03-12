@@ -11,8 +11,8 @@ p2p
 ```listen::<identifier>``` - wait for peer to connect with <identifier>   
 ```connect::<identifier>``` - connect to any peer listening on <identifier>   
 ```err::<error message>``` - error   
-```connection::<config to create connection with>``` - create a tcp connection to the address provided
-```start::<server config to start server on>``` - start a tcp server on the address provided
+```connection::<config to create connection with>``` - create a tcp connection to the address provided   
+```start::<server config to start server on>``` - start a tcp server on the address provided   
 
 ## how
  - create a connection to a server
