@@ -32,7 +32,7 @@ const server = net.createServer((c) => {
       handlers[cmd](c, d.toString().slice(cmd.length + 2))
     } else {
       console.log(d.toString())
-      c.end('ERR::not recognized')
+      c.end('err::not recognized')
     }
   })
 })
